@@ -1,5 +1,6 @@
 var path = require('path');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
@@ -27,6 +28,10 @@ module.exports = {
       root: __dirname,
       verbose: true,
       dry: false
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/index.ejs',
+      inject: 'body',
     })
   ],
   devServer: {
