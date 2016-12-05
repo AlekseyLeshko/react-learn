@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/App';
-import ShoppingList from './components/ShoppingList';
+import Game from './components/Game';
 
 ReactDOM.render(
-  <div>
-    <App/>
-    <ShoppingList name="Aleksey"/>
-  </div>,
+  <Game />,
   document.getElementById('root')
 );
