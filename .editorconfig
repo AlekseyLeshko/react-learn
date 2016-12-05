@@ -9,5 +9,5 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 max_char = 80
 
-[**.html]
-brace_style = expand
+[**.jsx]
+e4x = true
