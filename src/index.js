@@ -6,8 +6,8 @@ import ShoppingList from './components/ShoppingList';
 
 ReactDOM.render(
   <div>
-    <App />
-    <ShoppingList name="Aleksey" />
+    <App/>
+    <ShoppingList name="Aleksey"/>
   </div>,
   document.getElementById('root')
 );
